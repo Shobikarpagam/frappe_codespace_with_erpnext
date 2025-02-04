@@ -41,4 +41,6 @@ bench new-site dev.localhost \
 
 bench --site dev.localhost set-config developer_mode 1
 bench --site dev.localhost clear-cache
+bench get-app erpnext
+bench --site dev.localhost install-app erpnext
 bench use dev.localhost
